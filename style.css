@@ -1,0 +1,415 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: #ebf1ff;
+}
+
+#card-container {
+  margin-top: 12rem;
+  background-color: #ffffff;
+  width: 42rem;
+  height: 28rem;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  filter: drop-shadow(8px 10px 10px #d6cdf1);
+}
+
+#card {
+  width: 21rem;
+  height: 28rem;
+  background: linear-gradient(#7a7cec, #2230ce);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.title {
+  padding: 2rem;
+  text-align: center;
+  color: #c8c7ff;
+  font-size: 1.4rem;
+}
+
+.result .circle {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+  width: 170px;
+  height: 170px;
+  background: linear-gradient(#393ce0, #435ce9);
+  border-radius: 50%;
+}
+
+.circle h1 {
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 3.6rem;
+}
+
+.circle p {
+  color: #c8c7ff85;
+}
+
+.result b {
+  margin-left: 7.8rem;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.info {
+  margin-top: 1rem;
+  margin-left: 3.2rem;
+  text-align: center;
+  width: 14rem;
+  color: #c8c7ffd3;
+}
+
+.summary {
+  margin-left: 23rem;
+  margin-top: -25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.summary .title {
+  color: #000000;
+}
+
+.summary .title h3 {
+  text-align: left;
+}
+
+.rows b {
+  color: rgb(226, 92, 69);
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.row1 span {
+  font-weight: 800;
+  color: #000000;
+}
+
+.row1 p {
+  color: #a0a1a1;
+}
+
+.row1 {
+  padding: 12px;
+  width: 17rem;
+  height: 3.4rem;
+  background-color: #ffebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.badge {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.row p b {
+  box-sizing: border-box;
+  color: #000000;
+}
+
+.row2 {
+  margin-top: 1rem;
+  padding: 12px;
+  width: 17rem;
+  height: 3.4rem;
+  background-color: #feffda;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.row2 b {
+  color: #e9ad3e;
+}
+
+.row2 p {
+  color: #a0a1a1;
+}
+
+.row2 span {
+  font-weight: 800;
+  color: #000000;
+}
+
+.row3 {
+  margin-top: 1rem;
+  padding: 12px;
+  width: 17rem;
+  height: 3.4rem;
+  background-color: #cefae2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.row3 b {
+  color: #4ec087;
+}
+
+.row3 p {
+  color: #a0a1a1;
+}
+
+.row3 span {
+  font-weight: 800;
+  color: #000000;
+}
+
+.row4 {
+  margin-top: 1rem;
+  padding: 12px;
+  width: 17rem;
+  height: 3.4rem;
+  background-color: #c5dbfd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.row4 b {
+  color: #575fd1;
+}
+
+.row4 span {
+  font-weight: 800;
+  color: #000000;
+}
+
+.row4 p {
+  color: #a0a1a1;
+}
+
+button {
+  font-size: 18px;
+  width: 17rem;
+  height: 3.5rem;
+  color: #ffffff;
+  background-color: #31355a;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 23rem;
+  border-radius: 28px;
+}
+
+.btn:hover {
+  background: linear-gradient(#7a7ce0, #253eca);
+  cursor: pointer;
+}*/
+
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: #ebf1ff;
+}
+
+/* CARD */
+#card-container {
+  display: flex;
+  width: 42rem;
+  background: #fff;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* RESULT */
+.result {
+  width: 50%;
+  background: linear-gradient(#7a7cec, #2230ce);
+  padding: 2.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.title {
+  color: #c8c7ff;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.circle {
+  width: 170px;
+  height: 170px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  background: linear-gradient(#393ce0, #435ce9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.circle h1 {
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+
+.circle p {
+  color: #c8c7ff85;
+}
+
+.grade {
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.info {
+  color: #c8c7ffd3;
+  font-size: 0.95rem;
+}
+
+/* SUMMARY */
+.summary {
+  width: 50%;
+  padding: 2.5rem;
+}
+
+.title.dark {
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.row p {
+  color: #a0a1a1;
+}
+
+.row span {
+  font-weight: 800;
+  color: #000;
+}
+
+/* ROW COLORS */
+.row1 {
+  background: #ffebeb;
+}
+.row1 b {
+  color: #e25c45;
+}
+
+.row2 {
+  background: #feffda;
+}
+.row2 b {
+  color: #e9ad3e;
+}
+
+.row3 {
+  background: #cefae2;
+}
+.row3 b {
+  color: #4ec087;
+}
+
+.row4 {
+  background: #c5dbfd;
+}
+.row4 b {
+  color: #575fd1;
+}
+
+/* BUTTON */
+.btn {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 3.5rem;
+  border: none;
+  border-radius: 28px;
+  background: #31355a;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: linear-gradient(#7a7ce0, #253eca);
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  #card-container {
+    flex-direction: column;
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .result,
+  .summary {
+    width: 100%;
+  }
+}
